@@ -1,6 +1,7 @@
 <template>
-  <MButton>你好</MButton>
-  <MButton type="primary">你好</MButton>
+  <div>
+    <MButton>你好</MButton>
+  <MButton type="primary" @click='click'>你好</MButton>
   <MButton type="success">你好</MButton>
   <MButton type="info">你好</MButton>
   <MButton type="warning">你好</MButton>
@@ -36,10 +37,10 @@
   <MButton text type="warning">你好</MButton>
   <MButton text type="error" rounded>你好</MButton>
   <br>
+  </div>
 </template>
 
 <script setup>
-
 
 </script>
 
