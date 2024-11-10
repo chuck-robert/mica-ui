@@ -1,8 +1,8 @@
-import MBorder from './MBorder.vue';
+import MLink from './MLink.vue';
 
-MBorder.install = app => {
-    app.component(MBorder.name,MBorder);
+MLink.install = app => {
+    app.component(MLink.name,MLink);
 
 }
 
-export default MBorder;
+export default MLink;

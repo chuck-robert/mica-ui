@@ -6,4 +6,5 @@
   <MLink type="info">https://stear.cn</MLink>
   <MLink type="warning">https://stear.cn</MLink>
   <MLink type="error">https://stear.cn</MLink>
+
 </template>

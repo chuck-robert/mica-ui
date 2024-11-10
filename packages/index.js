@@ -1,14 +1,14 @@
 import MButton from "./button/index"
-import MBorder from "./border/index"
+import MLink from "./border/index"
 
 const install = app => {
   app.use(MButton);
-  app.use(MBorder);
+  app.use(MLink);
 }
 const mica = {
   install,
   MButton,
-  MBorder
+  MLink
 }
-export {MButton,MBorder}
+export {MButton,MLink}
 export default mica;
